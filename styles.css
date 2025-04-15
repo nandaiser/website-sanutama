@@ -37,8 +37,12 @@ body {
   }
 
   .navbar {
-    flex-direction: row; /* Stack navbar items vertically on small screens */
+    flex-direction: column; /* Stack navbar items vertically on small screens */
     gap: 10px; /* Adjust spacing */
+    padding: 10px; /* Adjust padding */
+    position: static; /* Make navbar static for mobile */
+    top: auto; /* Reset top position */
+    right: auto; /* Reset right position */
   }
 
   .service1 img, .service2 img, .portfolio-item img {

@@ -37,7 +37,7 @@ body {
   }
 
   .navbar {
-    flex-direction: column; /* Stack navbar items vertically on small screens */
+    flex-direction: row; /* Stack navbar items vertically on small screens */
     gap: 10px; /* Adjust spacing */
   }
 

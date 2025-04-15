@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PT. Saelim Anugerah Utama</title>
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+  
+  <header>
+    <nav class="navbar">
+      <a href="#about" class="nav-link">Services</a>
+      <a href="#portfolio" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link" onclick="window.open('https://wa.me/6281318802820', '_blank')">Contact</a>
+    </nav>
+    <div class="header-content">
+      <a href="/">
+        <img src="images/logo.png" alt="PT. Saelim Logo" class="logo" id="logo" />
+        </a>
+      <div class="title-text">
+        <h1>Built and Design Services Across Indonesia</h1>
+        <p><i>Professional Architectural & Steel Structure Design Services</i></p>
+        <a href="#contact" class="cta"><b>Get a Free Consultation</b></a>
+      </div>
+    </div>
+  </header>
+  
+
+  <section id="about">
+    <h2>Services </h2>
+    <h4>We serve the <u>Architectural Design</u> and <u>Steel Structure Design</u> for all kinds of building functions, both residential and business premises, throughout Indonesia. By using the media available today, distance is no longer an obstacle for us to complete the design requests given. There are several design package options that we offer. You can choose several packages according to your needs.</h4>
+        <div class="service1">
+          <h3>Architectural Design Services</h3>
+          <img src="images/rumah1.jpg" alt="rumah 1"onclick="openModal(this)">
+          <img src="images/r-makan.jpg" alt="rumah2"onclick="openModal(this)">
+          <img src="images/ktamu.jpg" alt="rumah3"onclick="openModal(this)">
+          <ul>
+            <li>Silver</li>
+            <li>Gold</li>
+            <li>Platinum</li>
+            <li>Exclusive</li>
+            <li>Super Exclusive</li>
+            <li><a href="pdf/Brochure-Archi.pdf" class = "brochure">Download Brochure</a></li>
+          </ul>
+      </div>
+      <div class="service2">
+        <h3>Steel Structure Design Services</h3>
+        <img src="images/struktur1.jpg" alt="Steel Structure Design 1"onclick="openModal(this)">
+        <img src="images/struktur2.jpg" alt="Steel Structure Design 2"onclick="openModal(this)">
+        <img src="images/struktur3.png" alt="Steel Structure Design 3"onclick="openModal(this)">
+        <ul>
+          <li>Silver</li>
+          <li>Gold</li>
+          <li>Platinum</li>
+          <li ><a href="pdf/Brochure-Steel-Structure.pdf" class = "brochure">Download Brochure  </a></li>
+        </ul>
+      </div>
+      <!-- Modal -->
+<div id="modal" class="modal" onclick="closeModal()">
+  <span class="close">&times;</span>
+  <img id="modal-img" class="modal-content">
+</div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio">
+      <div class="portfolio-item">
+        <img src="images/struktur3.png" alt="Steel Frame"onclick="openModal(this)">
+        <p>Steel Frame</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="images/outdoor1.png" alt="Modern Home Design"onclick="openModal(this)">
+        <p>Modern Home Design</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="images/mep2.jpg" alt="Blueprint Layout "onclick="openModal(this)">
+        <p>Blueprints</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>Contact Person: AMIN | Phone: 0813 1880 2820</p>
+    <p>&copy; 2025 PT. Saelim Anugerah Utama</p>
+    <img src="images/logo-wa.webp" alt="WhatsApp Logo"  width="80px" height="80px" style="position: fixed; bottom: 20px; right: 20px; cursor: pointer;" onclick="window.open('https://wa.me/6281318802820', '_blank')">
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

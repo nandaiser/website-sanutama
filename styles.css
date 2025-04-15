@@ -1,0 +1,232 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #333;
+      
+    }
+    header {
+      background: url('images/Outdoor2.png') no-repeat center center/cover;
+      padding: 240px 20px;
+      text-align: center;
+      color: white;
+      
+    }
+    header h1 {
+      font-size: 48px;
+      margin: 15px ;
+      color: white;
+      text-shadow:-4px -1px 0 #033a57,
+      1px -1px 0 #033a57,
+     -1px  2px 0 #033a57,
+      1px  1px 0 #033a57;
+      
+      
+    }
+    header p {
+      font-size: 26px;
+      margin: 15px;
+      color: white;
+      text-shadow:-2px -1px 0 #033a57,
+      1px -1px 0 #033a57,
+     -1px  1px 0 #033a57,
+      1px  1px 0 #033a57;
+      text-decoration:underline;
+      text-decoration-color: white;
+      
+    }
+    .cta {
+      display: inline-block;
+      padding: 12px 24px;
+      color: white;
+      border-radius: 5px;
+      margin-top: 20px;
+      text-decoration: none;
+
+      background-color: #033a57;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      color : #033a57;
+      font-size: 38px;
+      font-family: "Alata";
+      text-decoration: underline;
+    }
+    
+    .portfolio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+    .service, .portfolio-item {
+      text-align: center;
+    }
+    .portfolio-item img {
+      width: 100%;
+      border-radius: 10px;
+      
+      
+    }
+    footer {
+      background: #f4f4f4;
+      text-align: center;
+      padding: 20px;
+    }
+    .service img {
+      width: 200px;
+      height: 300px;
+      border-radius: 10px;
+    
+    
+      
+    }
+    .service1 img {
+      width: 300px;
+      height: auto;
+      border-radius: 10px;
+      margin: 10px 0;
+    }
+  .service2 img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    align-items: center;
+    
+  }
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    max-width: 90%;
+    max-height: 80%;
+  }
+  
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+  }
+
+  .portfolio-item img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+  }
+  #logo {
+    width:200px;
+    height: auto;
+    display: block;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+  }
+  #logo:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+  .navbar {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 20px; /* space between links */
+    background-color: #033a57d9;
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* ensure navbar is above other content */
+    
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  .nav-link:hover {
+    color: #007bff;
+  }
+  .service1, .service2 {
+    
+    background-color: #5c5c5c53;
+    border-radius: 15px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  }
+  body h3 {
+    font: 26px "adamina";
+    text-decoration: solid;
+    color: #000000;
+    text-align: left;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 15px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+  }
+  .service1 ul, .service2 ul {
+    display : flex;
+    justify-content: center;
+    gap : 35px;
+    font-size : 20px;
+    font-family: "adamina";
+  }
+
+  .title-text h1 {
+    font-family: "Alata";
+    font-size: 60px;
+  }
+  .title-text p {
+    font-family: "Alata";
+    font-size: 32px;
+  }
+  .body h4 {
+    font-family: "Alata";
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .portfolio-item p {
+    align-items: center;
+  }
+  .brochure {
+    background-color: #033a57;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  #brochure:hover {
+    background-color: #0056b3;
+  }
+  .brochure:hover {
+    background-color: #0056b3;
+  }
+  .brochure:active {
+    background-color: #004494;
+  }
